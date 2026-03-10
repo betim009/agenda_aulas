@@ -1,0 +1,54 @@
+#root {
+  margin: 0;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.agenda h1 {
+  margin: 0 0 1rem;
+  font-size: 1.8rem;
+}
+
+.agenda {
+  overflow-x: auto;
+}
+
+.calendario {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(160px, 1fr));
+  min-width: 1120px;
+  gap: 0.5rem;
+  align-items: start;
+}
+
+.cabecalho-dia {
+  padding: 0.6rem;
+  background: #e9ecef;
+  border: 1px solid #d0d7de;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-align: center;
+}
+
+.celula-dia {
+  min-height: 170px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 0.5rem;
+  background: #fff;
+}
+
+.celula-dia h2 {
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+}
+
+.celula-dia ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.celula-dia li {
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
