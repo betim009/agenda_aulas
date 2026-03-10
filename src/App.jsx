@@ -12,7 +12,7 @@ const ordemDias = [
 ]
 
 function App() {
-  const mes = marco[0]
+  const mes = marco
 
   const semanas = [mes.semana_1, mes.semana_2, mes.semana_3, mes.semana_4, mes.semana_5].map(
     (semana) => {
